@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="UrbanSole - Premium Men's & Women's Footwear" />
+  <title>UrbanSole | Premium Footwear</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Poppins', sans-serif; background: #000; color: #fff; }
+    header { padding: 20px; background: #111; text-align: center; }
+    header h1 { color: gold; font-size: 2.5rem; }
+    nav { margin-top: 10px; }
+    nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    .hero { padding: 60px 20px; text-align: center; background: url('https://images.unsplash.com/photo-1519744792095-2f2205e87b6f') no-repeat center/cover; }
+    .hero h2 { font-size: 3rem; margin-bottom: 10px; color: gold; }
+    .hero p { font-size: 1.2rem; }
+    .section { padding: 60px 20px; text-align: center; }
+    .section h3 { font-size: 2rem; margin-bottom: 20px; color: gold; }
+    .products { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+    .product { background: #111; border: 1px solid #333; padding: 20px; width: 200px; border-radius: 10px; }
+    .product img { width: 100%; border-radius: 10px; }
+    .product h4 { margin-top: 10px; font-size: 1.1rem; }
+    .contact { background: #111; padding: 40px 20px; }
+    .contact form { max-width: 400px; margin: 0 auto; display: flex; flex-direction: column; gap: 15px; }
+    .contact input, .contact textarea { padding: 10px; border: none; border-radius: 5px; }
+    .contact button { padding: 10px; background: gold; color: #000; font-weight: bold; border: none; border-radius: 5px; }
+    footer { text-align: center; padding: 20px; background: #111; color: #aaa; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>UrbanSole</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Step Into Style</h2>
+    <p>Explore premium footwear for men and women.</p>
+  </section>
+
+  <section class="section" id="products">
+    <h3>Our Collection</h3>
+    <div class="products">
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1600185365984-c2b7d9a95ff9" alt="Sneaker 1">
+        <h4>Men's Urban Runner</h4>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1596464716121-90b8f3eacb0a" alt="Sneaker 2">
+        <h4>Women's City Chic</h4>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1528701800489-20be7a54f07e" alt="Sneaker 3">
+        <h4>Classic Loafers</h4>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h3>About Us</h3>
+    <p>UrbanSole is a premium footwear brand dedicated to blending style, comfort, and durability. Designed for the modern mover.</p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h3>Contact Us</h3>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 UrbanSole. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
